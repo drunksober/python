@@ -15,3 +15,8 @@ print(animals)
 
 del animals[5] #random deleted
 print(animals)
+
+
+#searching for an item in a list
+
+'dora' in ['dora','kannu','kaadu']
