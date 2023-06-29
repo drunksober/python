@@ -1,0 +1,17 @@
+cats = ['dora','kannu','kaadu']
+cats[0]
+
+listed = [['dora','kannu','kaadu'],[1,2,3,4]]
+listed[1]
+
+listed[0][0] # to get dora out of the list 
+listed[0][-2] #to get kannu
+
+animals = ['dora','kannu','kaadu']
+animals[:2]
+animals[3:6] = ['kaalan','gundusi','random']
+print(animals)
+
+
+del animals[5] #random deleted
+print(animals)
